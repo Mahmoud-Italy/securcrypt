@@ -1,7 +1,10 @@
 # SecurCrypt - AES-GCM Encryption in Go
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/mahmoud-italy/securcrypt.svg)](https://pkg.go.dev/github.com/mahmoud-italy/securcrypt)
-
+![License](https://img.shields.io/github/license/mahmoud-italy/securcrypt)
+![Go Report Card](https://goreportcard.com/badge/github.com/mahmoud-italy/securcrypt)
+![Version](https://img.shields.io/github/tag/mahmoud-italy/securcrypt)
+![Go Version](https://img.shields.io/badge/go-1.18-blue)
 
 SecurCrypt is a Go package that provides robust encryption and decryption using AES-GCM with a secure key derivation function (PBKDF2). It ensures high security, authenticity, and integrity of your encrypted data.
 
