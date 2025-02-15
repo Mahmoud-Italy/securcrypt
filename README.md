@@ -57,7 +57,7 @@ fmt.Println("Decrypted:", decryptedText)
 We have included test cases to ensure the correctness of the encryption and decryption logic.
 ### Run tests using:
 ```bash
-go test ./...
+go test ./test/...
 ```
 
 ### Example Test Case (Inside securcrypt_test.go)
