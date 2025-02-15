@@ -1,5 +1,9 @@
 # SecurCrypt - AES-GCM Encryption in Go
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/Mahmoud-Italy/securcrypt.svg)](https://pkg.go.dev/github.com/Mahmoud-Italy/securcrypt)
+[![License](https://poser.pugx.org/laraotel/opentelemetry-laravel/license)](https://github.com/Mahmoud-Italy/laraotel-opentelemetry-laravel/blob/2.x/LICENSE.md)
+
+
 SecurCrypt is a Go package that provides robust encryption and decryption using AES-GCM with a secure key derivation function (PBKDF2). It ensures high security, authenticity, and integrity of your encrypted data.
 
 ## Features
