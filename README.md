@@ -57,27 +57,29 @@ fmt.Println("Decrypted:", decryptedText)
 We have included test cases to ensure the correctness of the encryption and decryption logic.
 ### Run tests using:
 ```bash
-go test ./test/...
+go test
 ```
 
 ### Example Test Case (Inside securcrypt_test.go)
 ```bash
-package securcrypt
+package securcrypt_test
 
 import (
     "testing"
+
+    "github.com/mahmoud-italy/securcrypt"
 )
 
 func TestEncryptionDecryption(t *testing.T) {
     passphrase := "TestPassphrase"
     plaintext := "SecretData"
 
-    encrypted, err := Encrypt(plaintext, passphrase)
+    encrypted, err := securcrypt.Encrypt(plaintext, passphrase)
     if err != nil {
         t.Fatalf("Encryption failed: %v", err)
     }
 
-    decrypted, err := Decrypt(encrypted, passphrase)
+    decrypted, err := securcrypt.Decrypt(encrypted, passphrase)
     if err != nil {
         t.Fatalf("Decryption failed: %v", err)
     }

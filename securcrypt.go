@@ -1,4 +1,4 @@
-package internal
+package securcrypt
 
 import (
 	"crypto/aes"

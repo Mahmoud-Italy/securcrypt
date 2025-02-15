@@ -1,21 +1,21 @@
-package test
+package securcrypt_test
 
 import (
 	"testing"
 
-	"github.com/mahmoud-italy/securcrypt/internal"
+	"github.com/mahmoud-italy/securcrypt"
 )
 
 func TestEncryptionDecryption(t *testing.T) {
 	passphrase := "TestPassphrase"
 	plaintext := "SecretData"
 
-	encrypted, err := internal.Encrypt(plaintext, passphrase)
+	encrypted, err := securcrypt.Encrypt(plaintext, passphrase)
 	if err != nil {
 		t.Fatalf("Encryption failed: %v", err)
 	}
 
-	decrypted, err := internal.Decrypt(encrypted, passphrase)
+	decrypted, err := securcrypt.Decrypt(encrypted, passphrase)
 	if err != nil {
 		t.Fatalf("Decryption failed: %v", err)
 	}

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/mahmoud-italy/securcrypt/internal"
+	"github.com/mahmoud-italy/securcrypt"
 )
 
 func main() {
@@ -12,7 +12,7 @@ func main() {
 	plaintext := "Hello, this is a secret message."
 
 	// Encrypt the message
-	encryptedText, err := internal.Encrypt(plaintext, passphrase)
+	encryptedText, err := securcrypt.Encrypt(plaintext, passphrase)
 	if err != nil {
 		log.Fatalf("Encryption failed: %v", err)
 	}
@@ -20,7 +20,7 @@ func main() {
 	fmt.Println("Encrypted:", encryptedText)
 
 	// Decrypt the message
-	decryptedText, err := internal.Decrypt(encryptedText, passphrase)
+	decryptedText, err := securcrypt.Decrypt(encryptedText, passphrase)
 	if err != nil {
 		log.Fatalf("Decryption failed: %v", err)
 	}
