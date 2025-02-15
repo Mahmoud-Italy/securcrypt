@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/mahmoud-italy/securecrypt/internal"
+	"github.com/mahmoud-italy/securcrypt/internal"
 )
 
 func main() {

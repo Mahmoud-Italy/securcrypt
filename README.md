@@ -1,6 +1,6 @@
-# SecureCrypt - AES-GCM Encryption in Go
+# SecurCrypt - AES-GCM Encryption in Go
 
-SecureCrypt is a Go package that provides robust encryption and decryption using AES-GCM with a secure key derivation function (PBKDF2). It ensures high security, authenticity, and integrity of your encrypted data.
+SecurCrypt is a Go package that provides robust encryption and decryption using AES-GCM with a secure key derivation function (PBKDF2). It ensures high security, authenticity, and integrity of your encrypted data.
 
 ## Features
 
@@ -17,7 +17,7 @@ SecureCrypt is a Go package that provides robust encryption and decryption using
 ## Installation
 
 ```bash
-composer go get -u github.com/mahmoud-italy/securecrypt
+go get -u github.com/mahmoud-italy/securcrypt
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ composer go get -u github.com/mahmoud-italy/securecrypt
 import (
     "fmt"
     "log"
-    "github.com/mahmoud-italy/securecrypt"
+    "github.com/mahmoud-italy/securcrypt"
 )
 ```
 
@@ -36,7 +36,7 @@ import (
 passphrase := "SuperSecurePassword123!"
 plaintext := "Hello, this is a secret message."
 
-encryptedText, err := securecrypt.Encrypt(plaintext, passphrase)
+encryptedText, err := securcrypt.Encrypt(plaintext, passphrase)
 if err != nil {
     log.Fatalf("Encryption failed: %v", err)
 }
@@ -46,7 +46,7 @@ fmt.Println("Encrypted:", encryptedText)
 ### Decrypting a Message
 
 ```bash
-decryptedText, err := securecrypt.Decrypt(encryptedText, passphrase)
+decryptedText, err := securcrypt.Decrypt(encryptedText, passphrase)
 if err != nil {
     log.Fatalf("Decryption failed: %v", err)
 }
@@ -60,9 +60,9 @@ We have included test cases to ensure the correctness of the encryption and decr
 go test ./...
 ```
 
-### Example Test Case (Inside securecrypt_test.go)
+### Example Test Case (Inside securcrypt_test.go)
 ```bash
-package securecrypt
+package securcrypt
 
 import (
     "testing"

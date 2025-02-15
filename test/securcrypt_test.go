@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/mahmoud-italy/securecrypt/internal"
+	"github.com/mahmoud-italy/securcrypt/internal"
 )
 
 func TestEncryptionDecryption(t *testing.T) {
