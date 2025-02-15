@@ -1,7 +1,7 @@
 # SecurCrypt - AES-GCM Encryption in Go
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/mahmoud-italy/securcrypt.svg)](https://pkg.go.dev/github.com/mahmoud-italy/securcrypt)
-![Go Downloads](https://img.shields.io/github/downloads/mahmoud-italy/securcrypt/total)
+
 ![License](https://img.shields.io/github/license/mahmoud-italy/securcrypt)
 ![Go Report Card](https://goreportcard.com/badge/github.com/mahmoud-italy/securcrypt)
 ![Version](https://img.shields.io/github/tag/mahmoud-italy/securcrypt)
@@ -9,7 +9,7 @@
 
 SecurCrypt is a Go package that provides robust encryption and decryption using AES-GCM with a secure key derivation function (PBKDF2). It ensures high security, authenticity, and integrity of your encrypted data.
 
-## Features
+## 🚀 Features
 
 - AES-GCM Encryption (Authenticated Encryption)
 
@@ -21,13 +21,14 @@ SecurCrypt is a Go package that provides robust encryption and decryption using 
 
 - Secure and Efficient Implementation
 
-## Installation
+## 📦 Installation
 
 ```bash
 go get -u github.com/mahmoud-italy/securcrypt
 ```
 
-## Usage
+## 🏗️ Usage
+
 ### Import the package
 
 ```bash
@@ -60,7 +61,7 @@ if err != nil {
 fmt.Println("Decrypted:", decryptedText)
 ```
 
-## Running Tests
+## 🛠️ Running Tests
 We have included test cases to ensure the correctness of the encryption and decryption logic.
 ### Run tests using:
 ```bash
@@ -97,8 +98,8 @@ func TestEncryptionDecryption(t *testing.T) {
 }
 ```
 
-## License
+## 🔖 License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-## Contributing
+## 🤝 Contributing
 Feel free to contribute by submitting issues or pull requests.
