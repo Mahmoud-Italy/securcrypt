@@ -1,6 +1,7 @@
 # SecurCrypt - AES-GCM Encryption in Go
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/mahmoud-italy/securcrypt.svg)](https://pkg.go.dev/github.com/mahmoud-italy/securcrypt)
+![Go Downloads](https://img.shields.io/github/downloads/mahmoud-italy/securcrypt/total)
 ![License](https://img.shields.io/github/license/mahmoud-italy/securcrypt)
 ![Go Report Card](https://goreportcard.com/badge/github.com/mahmoud-italy/securcrypt)
 ![Version](https://img.shields.io/github/tag/mahmoud-italy/securcrypt)
