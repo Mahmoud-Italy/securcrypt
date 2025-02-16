@@ -1,11 +1,10 @@
-# SecurCrypt - AES-GCM Encryption in Go
+# 🔐 SecurCrypt - AES-GCM Encryption in Go
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/mahmoud-italy/securcrypt.svg)](https://pkg.go.dev/github.com/mahmoud-italy/securcrypt)
-
 ![License](https://img.shields.io/github/license/mahmoud-italy/securcrypt)
 ![Go Report Card](https://goreportcard.com/badge/github.com/mahmoud-italy/securcrypt)
 ![Version](https://img.shields.io/github/tag/mahmoud-italy/securcrypt)
-![Go Version](https://img.shields.io/badge/go-1.18-blue)
+![Go Version](https://img.shields.io/badge/go-1.23.6-blue)
 
 SecurCrypt is a Go package that provides robust encryption and decryption using AES-GCM with a secure key derivation function (PBKDF2). It ensures high security, authenticity, and integrity of your encrypted data.
 
@@ -51,6 +50,10 @@ if err != nil {
 fmt.Println("Encrypted:", encryptedText)
 ```
 
+```bash
+Encrypted: brmcZrUfwt7B9cXxYl57rbQ1bnS3oArxfaAFUlFzL1jv2kI7xX9EIEK5owkcDJNcPNpfN/WNomg6nKjXhqMuWxmqXuC4Z6Fb9vDSyA==
+```
+
 ### Decrypting a Message
 
 ```bash
@@ -59,6 +62,10 @@ if err != nil {
     log.Fatalf("Decryption failed: %v", err)
 }
 fmt.Println("Decrypted:", decryptedText)
+```
+
+```bash
+Decrypted: Hello, this is a secret message.
 ```
 
 ## 🛠️ Running Tests
