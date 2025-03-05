@@ -14,7 +14,7 @@ SecurCrypt is a Go package that provides robust encryption and decryption using 
 
 - PBKDF2 Key Derivation (Strengthens password-based encryption)
 
-- Random Salt & Nonce Generation (Ensures uniqueness)
+- Random Salt & Nonce Generation (Ensures uniqueness) 
 
 - Base64 Encoding (Safe for storage & transmission)
 
