@@ -9,7 +9,7 @@
 SecurCrypt is a Go package that provides robust encryption and decryption using AES-GCM with a secure key derivation function (PBKDF2). It ensures high security, authenticity, and integrity of your encrypted data.
 
 ## 🚀 Features
-    
+
 - AES-GCM Encryption (Authenticated Encryption)
 
 - PBKDF2 Key Derivation (Strengthens password-based encryption)
